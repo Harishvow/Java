@@ -72,3 +72,28 @@ public class Main {
         acc4.Displayinfo();
     }
 }
+//method overloading parameterized method
+public class Main {
+
+    void add(int a,int b){
+        System.out.println(a+b);
+
+    }
+    void add(double a,double b){
+        System.out.println(a+b);
+    }
+    void  add(int a, double b){
+        System.out.println(a+b);
+    }
+    public static void main(String[]args){
+        Main m1= new Main();
+        m1.add(5,10);
+        m1.add(5.5,10.5);
+        m1.add(5,10.5);
+        
+    }
+
+
+    
+}//
+//

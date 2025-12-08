@@ -1,16 +1,14 @@
 public class mobile {
-    void unlock(){
-        System.out.println("swipe to unlock the mobile");
-    }
-    void unlock(int pin){
-        System.out.println("eneter the pin to unlock the mobile ");
+
+    void add(int a,int b){
+        System.out.println(a+b);
 
     }
-    void unlock(boolean fingerprint){
-        System.out.println("use fingerprint to unlock the mobile ");
+    void add(double a,double b){
+        System.out.println(a+b);
     }
-    void  unlock(String patterns){
-        System.out.println("draw the pattern");
+    void  add(int a, double b){
+        System.out.println(a+b);
     }
     public static void main(String[]args){
         mobile m1=new mobile();
@@ -22,4 +20,6 @@ public class mobile {
     }
 
     
-}
+}//
+//
+
